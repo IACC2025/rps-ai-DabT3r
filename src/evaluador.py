@@ -123,6 +123,7 @@ def evaluar(num_rondas: int = 50):
     Args:
         num_rondas: Numero de rondas a jugar
     """
+
     print("="*60)
     print("   RPSAI - EVALUACION DE WINRATE")
     print("="*60)
@@ -161,7 +162,7 @@ def evaluar(num_rondas: int = 50):
         mostrar_ronda(ronda, jugada_ia, jugada_humano, resultado)
 
         # Registrar en el historial de la IA
-        ia.registrar_ronda(jugada_humano, jugada_ia)
+        ia.registrar_ronda(jugada_ia, jugada_humano)
 
         # Actualizar contadores
         if resultado == "victoria":

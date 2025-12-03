@@ -1,10 +1,10 @@
 # Documentacion de Recogida de Datos
 
-**Alumno:** ___________________
+**Alumno:** David Amadeo Bueno Zarate
 
 ## Formato del CSV
 
-Tu archivo `data/partidas.csv` debe tener **minimo** estas columnas:
+Tu archivo `data/Datos.csv` debe tener **minimo** estas columnas:
 
 | Columna | Descripcion | Ejemplo |
 |---------|-------------|---------|
@@ -31,7 +31,7 @@ Marca con [x] el metodo usado y describe brevemente:
 
 ### Metodo de recogida:
 
-- [ ] **Programa propio**: Cree un programa para jugar y guardar datos
+- [x] **Programa propio**: Cree un programa para jugar y guardar datos
 - [ ] **Manual**: Jugue partidas y apunte los resultados a mano
 - [ ] **Aplicacion/Web externa**: Use una app y exporte los datos
 - [ ] **Otro**: _________________
@@ -42,9 +42,8 @@ Marca con [x] el metodo usado y describe brevemente:
 (Explica aqui como recogiste los datos. Si usaste un programa,
 describe brevemente como funciona. Si fue manual, explica el proceso.)
 
-
-
-
+Priemero cree un programa en python de piedra, papel o tijera para dos jugadores, que en cada ronda 
+guardo el número de ronda y las elecciones que ha tomado cada jugador.
 ```
 ---
 
@@ -70,12 +69,12 @@ Si capturaste datos extra ademas de los basicos, marcalos aqui:
 
 ## Estadisticas del dataset
 
-- **Total de rondas:** _____
-- **Numero de sesiones/partidas:** _____
-- **Contra cuantas personas diferentes:** _____
+- **Total de rondas:** 131
+- **Numero de sesiones/partidas:** 1
+- **Contra cuantas personas diferentes:** 1
 
 ### Tipo de IA:
 
 - [ ] **IA Especifica**: Entrenada para ganar a UNA persona concreta
   - Nombre/identificador del oponente: _________________
-- [ ] **IA General**: Entrenada para ganar a cualquier oponente
+- [x] **IA General**: Entrenada para ganar a cualquier oponente
